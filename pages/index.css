@@ -1,0 +1,54 @@
+@import url(../vender/normalize.css);
+@import url(../vender/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__top-block/header__top-block.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-ru/header__lang-ru.css);
+@import url(../blocks/header/__lang-en/header__lang-en.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__caption/header__caption.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__info/description__info.css);
+@import url(../blocks/description/__info-paragraph/description__info-paragraph.css);
+@import url(../blocks/description/__info-number/description__info-number.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+
+@import url(../blocks/location/location.css);
+@import url(../blocks/article/__image/article__image.css);
+@import url(../blocks/article/article.css);
+@import url(../blocks/article/__link-site/article__link-site.css);
+@import url(../blocks/article/__link-title/article__link-title.css);
+@import url(../blocks/article/__link/article__link.css);
+@import url(../blocks/article/__text/article__text.css);
+@import url(../blocks/article/__title/article__title.css);
+@import url(../blocks/article/__container/article__container.css);
+@import url(../blocks/article/__image/_kursh_kosa/article__image_kursh_kosa.css);
+@import url(../blocks/article/__image/_kolskii/article__image_kolskii.css);
+@import url(../blocks/article/__image/_altai/article__image_altai.css);
+@import url(../blocks/article/__image/_zimn_baikal/article__image_zimn_baikal.css);
+@import url(../blocks/article/__image/_kareli/article__image_kareli.css);
+
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__link/photo__link.css);
+@import url(../blocks/photo/__overlay/photo__overlay.css);
+@import url(../blocks/photo/__title/photo__title.css);
+@import url(../blocks/photo/__desc/photo__desc.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__row-link/footer__row-link.css);
+@import url(../blocks/footer/__row-links/footer__row-links.css);
+@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__row/footer__row.css);

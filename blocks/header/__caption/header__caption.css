@@ -1,0 +1,28 @@
+.header__caption {
+    font-size: 0.625rem;
+    line-height: 1.4;
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-weight: normal;
+    align-self: flex-start;
+    margin-left: 11.5%;
+}
+
+@media screen and (max-width: 1279px) {
+    .header__caption {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__caption {
+        margin-left: 16px;
+    }
+}

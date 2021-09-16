@@ -1,0 +1,13 @@
+.location {
+    margin-bottom: 90px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .location {
+        margin-bottom: 66px;
+    }
+}

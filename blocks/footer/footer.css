@@ -1,0 +1,21 @@
+.footer {
+  color: #f2f2f2;
+  display: flex;
+  margin: 90px 48px 0;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 64px 0 0 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

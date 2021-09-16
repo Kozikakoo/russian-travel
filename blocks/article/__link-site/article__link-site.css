@@ -1,0 +1,17 @@
+.article__link-site {
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-weight: normal;
+    color: white;
+    transition: color 1s linear 1s;
+}
+
+.article__link-site:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 767px) {
+    .article__link-site {
+        margin: 0;
+    }
+}

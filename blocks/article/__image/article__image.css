@@ -1,0 +1,17 @@
+.article__image {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    grid-area: image;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .article__image {
+        margin-top: 32px;
+        width: 320px;
+        height: 320px;
+        padding-bottom: 0;
+    }
+}
