@@ -1,7 +1,7 @@
 .header__top-block {
     height: 52px;
-    width: 1184px;
-    margin: 28px 48px 0;
+    width: 92.5%;
+    margin: 28px auto 0;
     outline: white, solid;
     display: flex;
     justify-content: space-between;
@@ -9,22 +9,21 @@
 
 @media screen and (max-width: 1279px) {
     .header__top-block {
-        width: 91vw;
-        width: 928px;
+        width: 90.9%;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header__top-block {
-        margin: 28px 24px 0;
-        width: 720px;
+        margin: 28px auto 0;
+        width: 93.7%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header__top-block {
-        width: 288px;
+        width: 90%;
         height: 42px;
-        margin: 16px 16px 0;
+        margin: 16px auto 0;
     }
 }

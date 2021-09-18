@@ -1,7 +1,7 @@
 .header__title {
   font-size: 6rem;
   line-height: 1.04;
-  font-weight: bolder;
+  font-weight: 900;
   color: #ffffff;
   max-width: 720px;
   min-height: 200px;
@@ -13,8 +13,9 @@
 @media screen and (max-width: 767px) {
   .header__title {
     min-height: 88px;
-    font-size: 40px;
-    line-height: 44px;
+    max-width: 288px;
+    font-size: 2.5rem;
+    line-height: 1.1;
     margin-bottom: 16px;
   }
 }

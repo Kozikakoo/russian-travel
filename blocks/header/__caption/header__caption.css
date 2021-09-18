@@ -11,18 +11,18 @@
 
 @media screen and (max-width: 1279px) {
     .header__caption {
-        margin-left: 48px;
+        margin-left: 4.6%;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header__caption {
-        margin-left: 24px;
+        margin-left: 3.1%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header__caption {
-        margin-left: 16px;
+        margin-left: 5%;
     }
 }

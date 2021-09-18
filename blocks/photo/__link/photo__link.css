@@ -16,17 +16,20 @@
 @media screen and (max-width: 1279px) {
     .photo__link {
         min-height: 640px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo__link {
         min-height: 480px;
+        max-width: 768px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo__link {
         min-height: 200px;
+        max-width: 100%;
     }
 }
