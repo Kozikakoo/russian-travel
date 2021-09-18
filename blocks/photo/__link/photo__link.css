@@ -2,7 +2,7 @@
     background-image: url(../../../images/__background.jpg);
     background-size: cover;
     background-position: center;
-    max-width: 1184px;
+    max-width: 92.5%;
     min-height: 740px;
     transition: color 1s linear 1s;
     margin: 0;
@@ -16,14 +16,14 @@
 @media screen and (max-width: 1279px) {
     .photo__link {
         min-height: 640px;
-        max-width: 1024px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo__link {
         min-height: 480px;
-        max-width: 768px;
+        max-width: 100%;
     }
 }
 
