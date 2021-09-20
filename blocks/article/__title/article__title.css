@@ -24,7 +24,6 @@
 @media screen and (max-width: 767px) {
     .article__title {
         font-size: 2rem;
-        line-height: 1.1;
         margin-bottom: 0;
         margin-left: 16px;
         max-width: 90%;

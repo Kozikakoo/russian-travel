@@ -3,11 +3,11 @@
     line-height: 1.2;
     font-weight: normal;
     color: white;
-    transition: color 1s linear 1s;
+    transition: opacity .1s linear;
 }
 
 .article__link-site:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

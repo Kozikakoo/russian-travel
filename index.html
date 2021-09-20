@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Russian-travel</title>
+    <title>Русские-путешествия</title>
 </head>
 
 <body>
@@ -13,19 +13,22 @@
         <header class="header">
             <div class="header__top-block">
                 <img class="logo" src="./images/__logo.svg" alt="Россия">
-                <div class="header__lang">
-                    <a class="header__lang-ru" href="#">Ru</a>
-                    <a class="header__lang-en" href="#">En</a>
+                <div class="header__lang-container">
+                    <a class="header__lang header__lang_active" href="#">Ru</a>
+                    <a class="header__lang" href="#">En</a>
                 </div>
             </div>
-
-            <h1 class="header__title">Путешествия по России</h1>
-            <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <div class="header__main-illustration"></div>
-            <p class="header__caption">ВАША ПОЛКА - ВЕРХНЯЯ</p>
         </header>
-
         <main class="content">
+
+            <section class="lead">
+                <h1 class="lead__title">Путешествия по России</h1>
+                <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+                <img class="lead__main-illustration" src="./images/header.jpg" alt="Окно поезда">
+                <p class="lead__caption">ваша полка — верхняя</p>
+            </section>
+
+
             <section class="description">
                 <h2 class="description__title">Чего мы там не&nbsp;видели?</h2>
                 <p class="description__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
@@ -44,44 +47,35 @@
                             class="description__info-number">16</span></p>
                     <p class="description__info-paragraph">Природных заповедников <span
                             class="description__info-number">105</span></p>
+                    <p class="description__info-paragraph">Аэропортов <span class="description__info-number">241</span>
+                    </p>
+
                 </div>
             </section>
 
             <section class="gallery">
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item1.jpg"
-                        alt="Вид из окна поезда"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item2.jpg"
-                        alt="Облака в снежных горах"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item3.jpg"
-                        alt="Собака на стоге сена"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item4.jpg" alt="Туман в лесу">
-                </figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item5.jpg"
-                        alt="Колесо машины на фоне льда"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item6.jpg" alt="Пляж">
-                </figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item7.jpg"
-                        alt="Горный хребет"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item8.jpg"
-                        alt="Пешеходный знак"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item9.jpg" alt="Холмы">
-                </figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item10.jpg"
-                        alt="Равнина на воне горы"></figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item11.jpg" alt="Обрыв">
-                </figure>
-                <figure class="gallery__item"><img class="gallery__image" src="./images/__item12.jpg"
-                        alt="Туман в горах"></figure>
+                <img class="gallery__image" src="./images/__item1.jpg" alt="Вид из окна поезда">
+                <img class="gallery__image" src="./images/__item2.jpg" alt="Облака в снежных горах">
+                <img class="gallery__image" src="./images/__item3.jpg" alt="Собака на стоге сена">
+                <img class="gallery__image" src="./images/__item4.jpg" alt="Туман в лесу">
+                <img class="gallery__image" src="./images/__item5.jpg" alt="Колесо машины на фоне льда">
+                <img class="gallery__image" src="./images/__item6.jpg" alt="Пляж">
+                <img class="gallery__image" src="./images/__item7.jpg" alt="Горный хребет">
+                <img class="gallery__image" src="./images/__item8.jpg" alt="Пешеходный знак">
+                <img class="gallery__image" src="./images/__item9.jpg" alt="Холмы">
+                <img class="gallery__image" src="./images/__item10.jpg" alt="Равнина на воне горы">
+                <img class="gallery__image" src="./images/__item11.jpg" alt="Обрыв">
+                <img class="gallery__image" src="./images/__item12.jpg" alt="Туман в горах">
             </section>
 
             <section class="location">
-                <div class="article">
+                <article class="article">
                     <h2 class="article__title">Куршская коса</h2>
                     <div class="article__link">
-                        <h3 class="article__link-title">URL</h3>
-                        <a class="article__link-site" href="http://park-kosa.ru">park-kosa.ru</a>
+                        <h3 class="article__link-title">url</h3>
+                        <a class="article__link-site" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
                     </div>
-                    <div class="article__image article__image_kursh_kosa"></div>
+                    <img class="article__image" src="./images/__image1.jpg">
 
                     <div class="article__container">
                         <p class="article__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -95,16 +89,17 @@
                             окуная в
                             спокойствие природы и запах стального, прохладного моря.</p>
                     </div>
-                </div>
-                <div class="article">
+                </article>
+                <article class="article">
                     <h2 class="article__title">Кольский</h2>
                     <div class="article__link">
-                        <h3 class="article__link-title">URL</h3>
+                        <h3 class="article__link-title">url</h3>
                         <a class="article__link-site"
-                            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+                            href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                            target="_blank">National
                             Geographic</a>
                     </div>
-                    <div class="article__image article__image_kolskii"></div>
+                    <img class="article__image" src="./images/__image2.jpg">
 
                     <div class="article__container">
                         <p class="article__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
@@ -118,15 +113,16 @@
                             начинает сбываться с билетом
                             в Мурманск.</p>
                     </div>
-                </div>
-                <div class="article">
+                </article>
+                <article class="article">
                     <h2 class="article__title">Алтай</h2>
                     <div class="article__link">
-                        <h3 class="article__link-title">URL</h3>
+                        <h3 class="article__link-title">url</h3>
                         <a class="article__link-site"
-                            href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                            href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                            target="_blank">Facebook</a>
                     </div>
-                    <div class="article__image article__image_altai"></div>
+                    <img class="article__image" src="./images/__image3.jpg">
 
                     <div class="article__container">
                         <p class="article__text">Алтай — одно из красивейших мест в России.
@@ -139,14 +135,15 @@
                             орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
                     </div>
-                </div>
-                <div class="article">
+                </article>
+                <article class="article">
                     <h2 class="article__title">Зимний Байкал</h2>
                     <div class="article__link">
-                        <h3 class="article__link-title">URL</h3>
-                        <a class="article__link-site" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                        <h3 class="article__link-title">url</h3>
+                        <a class="article__link-site" href="https://vk.com/baikalmile"
+                            target="_blank">https://vk.com/baikalmile</a>
                     </div>
-                    <div class="article__image article__image_zimn_baikal"></div>
+                    <img class="article__image" src="./images/__image4.jpg">
 
                     <div class="article__container">
                         <p class="article__text">Всем известен Байкал как крупнейшее озеро
@@ -159,14 +156,15 @@
                             года на
                             фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
-                </div>
-                <div class="article">
+                </article>
+                <article class="article">
                     <h2 class="article__title">Карелия</h2>
                     <div class="article__link">
-                        <h3 class="article__link-title">URL</h3>
-                        <a class="article__link-site" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+                        <h3 class="article__link-title">url</h3>
+                        <a class="article__link-site" href="http://vodlozero.ru"
+                            target="_blank">http://vodlozero.ru/</a>
                     </div>
-                    <div class="article__image article__image_kareli"></div>
+                    <img class="article__image" src="./images/__image5.jpg">
 
 
                     <div class="article__container">
@@ -180,13 +178,13 @@
                             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                     </div>
-                </div>
+                </article>
 
             </section>
 
             <section class="photo">
 
-                <a class="photo__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                <a class="photo__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
                     <div class="photo__overlay">
                         <h2 class="photo__title">До Байкала «на&nbsp;собаках»</h2>
                         <p class="photo__desc">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
@@ -194,23 +192,33 @@
                     </div>
                 </a>
 
+
             </section>
         </main>
 
         <footer class="footer">
-            <div class="footer__row">
+            <nav class="footer__row">
                 <ul class="footer__row-links">
-                    <li class="footer__list"><a class="footer__row-link" href="https://yandex.ru/maps">Карты</a></li>
-                    <li class="footer__list"><a class="footer__row-link" href="https://yandex.ru/pogoda">Погода</a></li>
-                    <li class="footer__list"><a class="footer__row-link" href="https://rasp.yandex.ru">Расписание</a></li>
-                    <li class="footer__list"><a class="footer__row-link" href="https://calendar.yandex.ru">Календарь</a></li>
-                    <li class="footer__list"><a class="footer__row-link" href="https://travel.yandex.ru">Путешествия</a></li>
+                    <li class="footer__list"><a class="footer__row-link" href="https://yandex.ru/maps"
+                            target="_blank">Карты</a></li>
+                    <li class="footer__list"><a class="footer__row-link" href="https://yandex.ru/pogoda"
+                            target="_blank">Погода</a></li>
+                    <li class="footer__list"><a class="footer__row-link" href="https://rasp.yandex.ru"
+                            target="_blank">Расписание</a>
+                    </li>
+                    <li class="footer__list"><a class="footer__row-link" href="https://calendar.yandex.ru"
+                            target="_blank">Календарь</a>
+                    </li>
+                    <li class="footer__list"><a class="footer__row-link" href="https://travel.yandex.ru"
+                            target="_blank">Путешествия</a>
+                    </li>
                 </ul>
-            </div>
-            <p class="footer__author">© 2021. Нагорная Анастасия</p>
+            </nav>
+            <p class="footer__author">&copy; 2021. Нагорная Анастасия</p>
 
         </footer>
 
     </div>
 </body>
+
 </html>

@@ -1,4 +1,4 @@
-.header__caption {
+.lead__caption {
     font-size: 0.625rem;
     line-height: 1.4;
     color: #ffffff;
@@ -7,22 +7,24 @@
     font-weight: normal;
     align-self: flex-start;
     margin-left: 11.5%;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
 
 @media screen and (max-width: 1279px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 4.6%;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 3.1%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .header__caption {
+    .lead__caption {
         margin-left: 5%;
     }
 }

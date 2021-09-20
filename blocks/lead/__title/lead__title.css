@@ -1,21 +1,26 @@
-.header__title {
+.lead__title {
   font-size: 6rem;
   line-height: 1.04;
   font-weight: 900;
   color: #ffffff;
   max-width: 720px;
-  min-height: 200px;
   text-align: center;
-  margin-bottom: 32px;
-  margin-top: 48px;
+  margin-bottom: 35px;
+  margin-top: 50px;
+  z-index: 50;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__title {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .header__title {
-    min-height: 88px;
+  .lead__title {
     max-width: 288px;
     font-size: 2.5rem;
     line-height: 1.1;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
   }
 }

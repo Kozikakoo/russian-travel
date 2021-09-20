@@ -1,6 +1,6 @@
 .gallery {
     display: grid;
-    margin: 90px auto;
+    margin: 90px auto 95px;
     grid-template-columns: repeat(auto-fit, 284px);
     grid-template-rows: repeat(auto-fit, 213px);
     gap: 16px;
@@ -20,6 +20,7 @@
         grid-template-columns: repeat(auto-fit, 352px);
         grid-template-rows: repeat(auto-fit, 264px);
         gap: 16px;
+        margin-bottom: 90px;
     }
 }
 

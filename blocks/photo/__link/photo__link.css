@@ -4,13 +4,8 @@
     background-position: center;
     max-width: 92.5%;
     min-height: 740px;
-    transition: color 1s linear 1s;
     margin: 0;
     text-decoration: none;
-}
-
-.photo__link:hover {
-    opacity: 0.2;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,13 +18,11 @@
 @media screen and (max-width: 1023px) {
     .photo__link {
         min-height: 480px;
-        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 767px) {
     .photo__link {
         min-height: 200px;
-        max-width: 100%;
     }
 }

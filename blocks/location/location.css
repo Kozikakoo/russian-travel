@@ -1,5 +1,5 @@
 .location {
-    margin-bottom: 90px;
+    margin-bottom: 98px;
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -7,8 +7,15 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 1023px) {
+    .location {
+        margin-bottom: 60px;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
     .location {
-        margin-bottom: 66px;
+        margin-bottom: 40px;
     }
 }
