@@ -16,10 +16,13 @@
 
 @media screen and (max-width: 767px) {
     .article__text {
-        margin: 30px 16px 25px;
+        margin: 32px 16px 25px;
     }
     .article__text:nth-child(2) {
         margin-top: 0;
+        margin-bottom: 0;
+    }
+    .article__text:last-child {
         margin-bottom: 0;
     }
 }
